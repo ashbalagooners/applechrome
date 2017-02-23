@@ -22,7 +22,7 @@ class HTTPRequestForChrome {
         let scriptUrl = "http://localhost:4444/wd/hub"
         let urlWithParams = scriptUrl + "/session"
         let iClouldProdURL = "https://www.icloud.com"
-        let appleId = "ashwin.gunners@gmail.com"
+        let appleId = "ashwin.gunners@gmail.com" //choose an apple id of your choice
     
         // Create NSURL Object to start a webdriver session
         let myUrl = NSURL(string: urlWithParams);
