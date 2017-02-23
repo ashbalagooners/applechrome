@@ -29,7 +29,6 @@
 		CF486BE61E56E28100C87098 /* applechrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = applechrome; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6D5E851E5EECEF00C928BD /* applechrome-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "applechrome-Bridging-Header.h"; sourceTree = "<group>"; };
 		CF6D5E861E5EED4300C928BD /* startSelenium.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = startSelenium.sh; sourceTree = "<group>"; };
-		CF6D5E871E5F597E00C928BD /* approachTakenForExcercise */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = approachTakenForExcercise; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +65,6 @@
 				CF3AC39E1E5826B500041A4B /* main.swift */,
 				CF3AC3A01E59743700041A4B /* HTTPRequestChromeDriver.swift */,
 				CF6D5E861E5EED4300C928BD /* startSelenium.sh */,
-				CF6D5E871E5F597E00C928BD /* approachTakenForExcercise */,
 			);
 			path = applechrome;
 			sourceTree = "<group>";
