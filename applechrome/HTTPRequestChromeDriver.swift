@@ -22,6 +22,7 @@ class HTTPRequestForChrome {
         let scriptUrl = "http://localhost:4444/wd/hub"
         let urlWithParams = scriptUrl + "/session"
         let iClouldProdURL = "https://www.icloud.com"
+        let appleId = "ashwin.gunners@gmail.com"
     
         // Create NSURL Object to start a webdriver session
         let myUrl = NSURL(string: urlWithParams);
@@ -46,7 +47,7 @@ class HTTPRequestForChrome {
         // Create NSURL Object
         let myiCloudLoginUrl = NSURL(string: iClouldEnterLoginURL);
         let iClouldLoginRequest = NSMutableURLRequest(url:myiCloudLoginUrl! as URL);
-        let iClouldLoginParams:NSMutableDictionary? = ["value" : ["ashwin.gunners@gmail.com"]]
+        let iClouldLoginParams:NSMutableDictionary? = ["value" : [appleId]]
         let iClouldUpdatedLoginRequest = createPostBody(request: iClouldLoginRequest,params: iClouldLoginParams!)
         HTTPPost(request: iClouldUpdatedLoginRequest, session : true, callback: callback)
 
@@ -112,7 +113,7 @@ class HTTPRequestForChrome {
         }
         task.resume()
             
-        sleep(3);  //hard code sleep is added for simplicity to make sure the program is not terminated and the browser can be opened. This can be improved upon by adding a implicit wait
+        sleep(10);  //hard code sleep is added for simplicity to make sure the program is not terminated and the browser can be opened. This can be improved upon by adding a implicit wait
     
     }
     
