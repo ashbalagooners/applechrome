@@ -3,7 +3,9 @@ I refered to examples mentioned here for help in understanding swift 3 and how w
 https://w3c.github.io/webdriver/webdriver-spec.html#element-clear
 https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/
 
-The idea behind the excercise was to trigger a chrome driver from swift using http requests. I used basically URLSession class to trigger the requests.
+The idea behind the excercise was to trigger a chrome driver from swift using http requests. I used basically URLSession class 
+to trigger the requests. I have used the concept of asynchronous task calls along with callback/completion handlers to complete the task request
+so that the callback is run before the program is executed. The code can surely be refactored a lot better.
 I am using swift 3.0.2 on Xcode 8 version. I started off my creating a simple console application project.
 I created a swift class HTTPRequestChromeDriver.swift, in which placeholder methods have been added to http get, post and other actions needed to completed part 1 and part 2 of excercise.
 
