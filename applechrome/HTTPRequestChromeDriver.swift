@@ -89,6 +89,7 @@ class HTTPRequestForChrome {
     
     /*
      Method to trigger http request based on request type and also checks if the a current session is active
+     this is a async call that can be further run with a completionHandler or callback if the task is required to be returned
      */
     func HTTPsendRequest(request: NSMutableURLRequest,currentSession : Bool,callback: (String, String?) -> Void) {
     
