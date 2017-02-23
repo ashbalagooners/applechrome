@@ -1,0 +1,30 @@
+This document will illustrate my thinking/approach towards solving the excercise.
+I refered to examples mentioned here for help in understanding swift 3 and how webdriver json protocol is used.
+https://w3c.github.io/webdriver/webdriver-spec.html#element-clear
+https://developer.apple.com/library/prerelease/content/documentation/Swift/Conceptual/Swift_Programming_Language/
+
+The idea behind the excercise was to trigger a chrome driver from swift using http requests. I used basically URLSession class to trigger the requests.
+I am using swift 3.0.2 on Xcode 8 version. I started off my creating a simple console application project.
+I created a swift class HTTPRequestChromeDriver.swift, in which placeholder methods have been added to http get, post and other actions needed to completed part 1 and part 2 of excercise.
+
+Pre-requisites required to run the console application trigger from main.swift are
+here : http://webdriver.io/guide/getstarted/install.html
+
+while the webdriver I/O syntax is not used in the code, the installation directions are required to trigger the chrome driver from the Xcode Run itself.
+
+Once the set up instructions are done correctly, the selenium stand alone server could be triggered by
+
+sh startSelenium.sh
+
+This command could also be added as part of Pre-build step in Run or Build option of the Scheme settings
+
+In the excercise, part 1 and part 2 are done. as far as part 3 is concerned, i could only enter the appleId.
+I tried to look up the elements id list from /session/:sessionId/elements/, but it only gave me the checkbox element id which was 0.
+i tried several ways even via a normal selenium webdriver javascript to input the password from #id after inspecting the DOM but i was unable to do so.
+
+but the approach should be the same as entering the appleId which is isllustrated in the swift code.
+The idea is for either for the GET or POST requests, prepare http body if needed for that particular call and call the common task http request method to interact with the webelement.
+The code besides actually completing part 3 can also be improved by adding various asserts to test out the webelement as well as add implicit sleep or make sure old session is ended after run.
+
+Personally, i would like to go beyond entering the password, complete actual login and start the calendar app as mentioned in part 3 of excercise, but in the current time frame, this is what i could come up with.
+

@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3AC39F1E5826B500041A4B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3AC39E1E5826B500041A4B /* main.swift */; };
+		CF3AC3A11E59743700041A4B /* HTTPRequestChromeDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3AC3A01E59743700041A4B /* HTTPRequestChromeDriver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF486BE41E56E28100C87098 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3AC39E1E5826B500041A4B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CF3AC3A01E59743700041A4B /* HTTPRequestChromeDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestChromeDriver.swift; sourceTree = "<group>"; };
+		CF486BE61E56E28100C87098 /* applechrome */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = applechrome; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6D5E851E5EECEF00C928BD /* applechrome-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "applechrome-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF6D5E861E5EED4300C928BD /* startSelenium.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = startSelenium.sh; sourceTree = "<group>"; };
+		CF6D5E871E5F597E00C928BD /* approachTakenForExcercise */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = approachTakenForExcercise; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF486BE31E56E28100C87098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF486BDD1E56E28100C87098 = {
+			isa = PBXGroup;
+			children = (
+				CF486BE81E56E28100C87098 /* applechrome */,
+				CF486BE71E56E28100C87098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF486BE71E56E28100C87098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF486BE61E56E28100C87098 /* applechrome */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF486BE81E56E28100C87098 /* applechrome */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D5E851E5EECEF00C928BD /* applechrome-Bridging-Header.h */,
+				CF3AC39E1E5826B500041A4B /* main.swift */,
+				CF3AC3A01E59743700041A4B /* HTTPRequestChromeDriver.swift */,
+				CF6D5E861E5EED4300C928BD /* startSelenium.sh */,
+				CF6D5E871E5F597E00C928BD /* approachTakenForExcercise */,
+			);
+			path = applechrome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF486BE51E56E28100C87098 /* applechrome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF486BED1E56E28100C87098 /* Build configuration list for PBXNativeTarget "applechrome" */;
+			buildPhases = (
+				CF486BE21E56E28100C87098 /* Sources */,
+				CF486BE31E56E28100C87098 /* Frameworks */,
+				CF486BE41E56E28100C87098 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = applechrome;
+			productName = applechrome;
+			productReference = CF486BE61E56E28100C87098 /* applechrome */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF486BDE1E56E28100C87098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ashwin Balachandran";
+				TargetAttributes = {
+					CF486BE51E56E28100C87098 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = CF486BE11E56E28100C87098 /* Build configuration list for PBXProject "applechrome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF486BDD1E56E28100C87098;
+			productRefGroup = CF486BE71E56E28100C87098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF486BE51E56E28100C87098 /* applechrome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF486BE21E56E28100C87098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3AC39F1E5826B500041A4B /* main.swift in Sources */,
+				CF3AC3A11E59743700041A4B /* HTTPRequestChromeDriver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF486BEB1E56E28100C87098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF486BEC1E56E28100C87098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF486BEE1E56E28100C87098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "applechrome/applechrome-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				test = "";
+			};
+			name = Debug;
+		};
+		CF486BEF1E56E28100C87098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "applechrome/applechrome-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				test = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF486BE11E56E28100C87098 /* Build configuration list for PBXProject "applechrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF486BEB1E56E28100C87098 /* Debug */,
+				CF486BEC1E56E28100C87098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF486BED1E56E28100C87098 /* Build configuration list for PBXNativeTarget "applechrome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF486BEE1E56E28100C87098 /* Debug */,
+				CF486BEF1E56E28100C87098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF486BDE1E56E28100C87098 /* Project object */;
+}
