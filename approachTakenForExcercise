@@ -28,5 +28,5 @@ but the approach should be the same as entering the appleId which is isllustrate
 The idea is for either for the GET or POST requests, prepare http body if needed for that particular call and call the common task http request method to interact with the webelement.
 The code besides actually completing part 3 can also be improved by adding various asserts to test out the webelement as well as add implicit sleep or make sure old session is ended after run.
 
-Personally, i would like to go beyond entering the password, complete actual login and start the calendar app as mentioned in part 3 of excercise, but in the current time frame, this is what i could come up with.
-
+Personally, i would like to go beyond entering the password, complete actual login, validate  the two step authentication screen that pops up to enter a 6 digit number.
+And then start the calendar app as mentioned in part 3 of excercise, but in the current time frame, this is what i could come up with.
